@@ -6,15 +6,11 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content>
+  <!-- <ion-button (click)="badge.set(10)">Set 10</ion-button>
+  <ion-button (click)="badge.clear()">Clear</ion-button>
+-->
+  <ion-button (click)="set10Noti()">setTimeout 10</ion-button> 
+    <button ion-button (click)="badge.set(10)">Set 10</button>
+    <button ion-button (click)="badge.clear()">clear</button>
 </ion-content>

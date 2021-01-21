@@ -1,0 +1,5 @@
+  public static BUCKET_US = 'https://st2st-us-dev.s3.eu-central-1.amazonaws.com';
+  public static BUCKET_ES = 'https://st2st-es-dev.s3.eu-central-1.amazonaws.com';
+  public static BUCKET_US_DEV = 'https://st2st-us-dev.s3.eu-central-1.amazonaws.com';
+  public static BUCKET_ES_DEV = 'https://st2st-es-dev.s3.eu-central-1.amazonaws.com';
+  
